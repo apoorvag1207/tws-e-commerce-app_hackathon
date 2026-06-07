@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-s3-backend-tws-hackathon"
+    bucket = "terraform-s3-backend-projects"
     key    = "backend-locking"
-    region = "eu-west-1"
-    use_lockfile = true
+    region = "eu-north-1"
+    # use_lockfile = true
   }
 }

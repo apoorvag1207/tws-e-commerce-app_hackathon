@@ -16,5 +16,6 @@ locals {
 provider "aws" {
 
   region = local.region
+  profile = "suryaurs"
 
 }
